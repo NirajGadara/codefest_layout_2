@@ -152,6 +152,7 @@ hr{
 }
 
 #conten_footer{
+    text-align: center;
     padding-left: 7%;
 }
 
@@ -269,6 +270,7 @@ h4{
         padding-right: 10%;
         padding-bottom: 5%;
     }
+
 
     #main_header_content{
         display: flex;
