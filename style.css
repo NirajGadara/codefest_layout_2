@@ -22,7 +22,7 @@ header{
     color: white;
 }
 
-#left_img{
+.left_img{
     width: 100%;
 }
 
@@ -150,6 +150,7 @@ footer{
 .main_footer{
     position: absolute;
     top: 5%;
+    left: 5%;
 }
 
 hr{
@@ -158,63 +159,42 @@ hr{
 
 #footer_main_header{
     text-align: center;
-    padding-bottom: 2%;
 }
 
-#conten_footer{
+#content_footer{
     text-align: center;
-    padding-left: 7%;
 }
 
-#column_1{
-    text-align: center;
-    padding-left: 3%;
-    padding-bottom: 10%;
-}
-
-#column_2{
-    text-align: center;
-    padding-left: 3%;
-    padding-bottom: 10%;
-}
-
-#column_3{
-    text-align: center;
-    padding-left: 3%;
-    padding-bottom: 10%;
-}
 h4{
     font-size: 50px;
     font-weight: 250;
     color: black;
-    text-align: center;
 }
 #footer_header{
     font-size: 50px;
     font-weight: 250;
     color: black;
-    text-align: left;
 }
 
 #footer_p_1{
     font-size: 20px;
     font-weight: 300;
-    text-align: left;
     padding-bottom: 5%;
+    text-align: left;
 }
 
 #footer_p_2{
     font-size: 20px;
     font-weight: 300;
-    text-align: left;
     padding-bottom: 5%;
+    text-align: left;
 }
 
 #footer_p_3{
     font-size: 20px;
     font-weight: 300;
-    text-align: left;
     padding-bottom: 5%;
+    text-align: left;
 }
 
 #footer_button1{
@@ -308,6 +288,10 @@ h4{
         color: white;
         background-color: rgba(255, 166, 0, 0.322);
     }
+
+    .left_img{
+        width: 80%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -328,4 +312,7 @@ h4{
         height: 80%;
     }
 
+    .left_img{
+        width: 50%;
+    }
 }
